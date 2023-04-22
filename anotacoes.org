@@ -1,0 +1,146 @@
+#+Title: Anotacoes sobre nosso projeto
+
+* Introducao
+  Um projeto maven web com spring web mvc sem usar spring boot
+  
+
+* Criacao do Projeto
+  mvn archetype:generate forcece algumas opcoes interessantes para criacaod o nosso projeto
+
+  164: remote -> co.ntier:spring-mvc-archetype (An extremely simple Spring MVC archetype, configured with NO XML.)
+  303: remote -> com.c4-soft.springaddons:spring-addons-archetypes-webmvc-multimodule (Create a multi-module maven project for a native ready Spring REST API with webmvc, JPA, OpenID security and OpenAPI)
+  304: remote -> com.c4-soft.springaddons:spring-addons-archetypes-webmvc-singlemodule (Create a single-module maven project for a native ready Spring REST API with webmvc, JPA, OpenID security and OpenAPI)
+  308: remote -> com.c4-soft.springaddons:spring-webmvc-archetype (Create a multi-module maven project for a native ready Spring REST API with webmvc, JPA, OpenID security and OpenAPI)
+  309: remote -> com.c4-soft.springaddons:spring-webmvc-archetype-jdk11 (Create a multi-module maven project for a native ready Spring REST API with webmvc, JPA, OpenID security and OpenAPI)
+  310: remote -> com.c4-soft.springaddons:spring-webmvc-archetype-multimodule (Create a multi-module maven project for a native ready Spring REST API with webmvc, JPA, OpenID security and OpenAPI)
+  311: remote -> com.c4-soft.springaddons:spring-webmvc-archetype-singlemodule (Create a single-module maven project for a native ready Spring REST API with webmvc, JPA, OpenID security and OpenAPI)
+  330: remote -> com.commercetools.maven-archetypes:commercetools-spring-mvc-quickstart (Archetype for creating Spring MVC 4 web application with commercetools)
+
+
+  371: remote -> com.dominikcebula.archetypes:java17-spring-boot3-rest-api-archetype (Skeleton for Java 17 Spring Boot 3 REST API project.)
+  398: remote -> com.fitbur.testify.archetype:archetype-junit-spring-integrationtest (Creates a new quickstart project to integration test Spring modules with Testify, JUnit, Mockito, and AssertJ.)
+  398: remote -> com.fitbur.testify.archetype:archetype-junit-spring-integrationtest (Creates a new quickstart project to integration test Spring modules with Testify, JUnit, Mockito, and AssertJ.)
+399: remote -> com.fitbur.testify.archetype:archetype-junit-spring-systemtest (Creates a new quickstart project to system test Spring MVC application with Testify, JUnit, Mockito, and AssertJ.)
+
+
+
+401: remote -> com.fitbur.testify.archetype:archetype-junit-unittest (Creates a new quickstart project to unit test Java code with Testify, JUnit, Mockito, and AssertJ.)
+
+403: remote -> com.force.sdk:springmvc-archetype (Spring MVC Project with Database.com Support)
+
+
+421: remote -> com.github.akiraly.reusable-poms:simple-java-project-with-spring-context-archetype (-)
+
+422: remote -> com.github.akiraly.reusable-poms:simple-java-project-with-spring-hibernate-querydsl-archetype (-)
+
+458: remote -> com.github.drtrang:maven-archetype-springboot (基于 Spring Boot 的 Maven 原型)
+
+640: remote -> com.graphaware.neo4j:graphaware-springmvc-maven-archetype (-)
+
+642: remote -> com.graphaware.neo4j:neo4j-springmvc-maven-archetype (-)
+
+656: remote -> com.highwise:weby (A simple spring mvc + hibernate project archetype)
+
+664: remote -> com.huongdanjava:huongdanjava-springmvc-archetype (Huong Dan Java - Spring MVC Maven Archetype project.)
+
+757: remote -> com.liferay:com.liferay.project.templates.spring.mvc.portlet (Creates a Spring MVC portlet as a WAR project.)
+790: remote -> com.liferay.maven.archetypes:liferay-portlet-spring-mvc-archetype (Provides an archetype to create Liferay Spring MVC portlets.)
+
+794: remote -> com.liferay.portletmvc4spring.archetype:com.liferay.portletmvc4spring.archetype.form.jsp.portlet (Maven archetype for PortletMVC4Spring with JSP form views)
+795: remote -> com.liferay.portletmvc4spring.archetype:com.liferay.portletmvc4spring.archetype.form.thymeleaf.portlet (Maven archetype for PortletMVC4Spring with Thymeleaf form views)
+805: remote -> com.luhuiguo.archetype:spring-angular-webapp-archetype (Spring Boot + Angular application)
+806: remote -> com.luhuiguo.archetypes:spring-angular-antd-archetype (Spring Angular Ant Design Archetype)
+
+830: remote -> com.mikenimer:extjs-springmvc-webapp (A maven Archetype to create new EXTJS project powered by a spring MVC service.)
+
+1276: remote -> fr.uha.ensisa.ff:spring-mvc-archetype (An extremely simple Spring MVC)
+
+1404: remote -> io.fabric8.archetypes:camel-spring-boot-archetype (Shows how to use Camel with Spring Boot in the Java Container.)
+
+1405: remote -> io.fabric8.archetypes:camel-spring-java-archetype (Creates a new Camel Spring project which uses the Java Container in Fabric8.)
+
+1433: remote -> io.fabric8.archetypes:java-camel-spring-archetype (Creates a new Camel route using Spring XML in a standalone Java container)
+
+1501: remote -> io.fabric8.archetypes:spring-camel-archetype (Creates a new Camel route using Spring XML in a standalone Java container)
+
+1581: remote -> io.github.rhacs:awakelab-archetype-springmvc (Arquetipo SpringMVC con implementaciones basicas (Spring Framework v5.2.7, Java Servlet API v4.0.1, JSP API v2.3.3, JSTL v1.2, JUnit v5.6.2))
+
+1582: remote -> io.github.rhacs:awakelab-archetypes-springmvc (Arquetipo para proyectos bajo Spring MVC con implementaciones basicas (Incluye: Spring Framework v5.2.7, Java Servlet API v4.0.1, JSP API v2.3.3, JSTL v1.2, JUnit v5.6.2))
+1583: remote -> io.github.rhacs:awakelab-archetypes-springmvc-jdbc (Arquetipo para la creación de proyectos bajo Spring Framework MVC y JDBC Template con implementaciones básicas. Incluye: Spring Framework 5.2.8.RELEASE, Java Servlet API 4.0.1, JSP API 2.3.3, JSTL API 1.2, JUnit 5.6.2)
+1584: remote -> io.github.rhacs:awakelab-archetypes-springmvc-jpa (Arquetipo para la creación de proyectos bajo Spring Framework MVC y Java Persistence API (JPA) con implementaciones básicas. Incluye: Spring Framework 5.2.8.RELEASE, Spring Data 2.3.3.RELEASE, Hibernate 5.4.20.FINAL, Java Servlet API 4.0.1, JSP API 2.3.3, JSTL API 1.2, JUnit 5.6.2)
+1671: remote -> io.sphere.maven-archetypes:commercetools-spring-mvc-quickstart (Archetype for creating Spring MVC 4 web application with commercetools)
+1709: remote -> it.cosenonjaviste:jsf2-spring4-jpa2-archetype (This archetype is based on org.fluttercode.knappsack/spring-jsf-jpa-archetype/1.1 one.
+1736: remote -> ml.rugal.archetype:springmvc-spring-hibernate (A pretty useful JavaEE application archetype based on springmvc spring and hibernate)
+
+1737: remote -> ml.rugal.archetype:springmvc-spring-mongodb (An archetype based on springmvc spring and MongoDB)
+
+
+
+
+
+0
+1722: remote -> jp.coppermine:jakartaee-quickstart-archetype (Jakarta EE quick start template with Jakarta Server Faces and Jakarta RESTful Web Services)
+
+
+1965: remote -> org.apache.camel.archetypes:camel-archetype-spring (Creates a new Camel project with added Spring DSL support.)
+
+
+1986: remote -> org.apache.cxf.archetype:cxf-jaxrs-service (Simple CXF JAX-RS webapp service using Spring configuration)
+
+
+
+
+2309: remote -> org.camunda.bpm.archetype:camunda-archetype-servlet-war (Process application that uses a shared Camunda Platform engine in a Servlet Container, e.g. Apache Tomcat.
+          Contains: Servlet Process Application, BPMN Process, Java Delegate, HTML5-based start and task forms,
+          JUnit Test with in-memory engine and visual process test coverage, Maven Plugins)
+
+
+2310: remote -> org.camunda.bpm.archetype:camunda-archetype-servlet-war-demo (Demo application with lots of pre-built parts that uses a shared Camunda Platform engine in a Servlet Container, e.g. Apache Tomcat.
+          Contains: Servlet Process Application, BPMN Process, Java Delegate, HTML5-based start and task forms,
+          JUnit Test with in-memory engine, Maven Plugins, and visual process test coverage)
+2311: remote -> org.camunda.bpm.archetype:camunda-archetype-spring-boot (Process application that uses the Spring Boot Starter
+          Contains: BPMN Process, Java Delegate, HTML5- start and task forms,
+          JUnit Test with in-memory engine and visual process test coverage)
+2312: remote -> org.camunda.bpm.archetype:camunda-archetype-spring-boot-demo (Demo application with lots of pre-built parts that uses the Spring Boot Starter
+          Contains: BPMN Process, Java Delegate, HTML5- start and task forms,
+          JUnit Test with in-memory engine and visual process test coverage)
+
+
+
+2489: remote -> org.fluttercode.knappsack:spring-jsf-jpa-archetype (Spring Knappsack archetype application with setup for JPA and JSF)
+2490: remote -> org.fluttercode.knappsack:spring-mvc-jpa-archetype (Spring MVC Knappsack archetype application with setup for JPA)
+2491: remote -> org.fluttercode.knappsack:spring-mvc-jpa-demo-archetype (Spring MVC Knappsack demo archetype application with JPA)
+2492: remote -> org.fuin.archetypes:docker-maven-java-app-archetype (-)
+
+
+2632: remote -> org.jboss.spring.archetypes:jboss-spring-mvc-archetype (An archetype that generates a starter Spring MVC application with Java EE persistence settings (server bootstrapped JPA, JTA transaction management) for JBoss AS7)
+2633: remote -> org.jboss.spring.archetypes:spring-mvc-webapp (An archetype that generates a starter Spring MVC application with Java EE persistence settings (server bootstrapped JPA, JTA transaction management) for JBoss AS7)
+
+2847: remote -> org.ops4j.pax.construct:maven-archetype-osgi-bundle (-)
+2848: remote -> org.ops4j.pax.construct:maven-archetype-osgi-project (-)
+2849: remote -> org.ops4j.pax.construct:maven-archetype-osgi-service (-)
+2850: remote -> org.ops4j.pax.construct:maven-archetype-osgi-wrapper (-)
+2851: remote -> org.ops4j.pax.construct:maven-archetype-spring-bean (-)
+2852: remote -> org.ops4j.pax.exam:maven-archetype-paxexam-junit ()
+2853: remote -> org.ops4j.pax.exam.archetypes:exam-glassfish41-archetype (Archetype for Pax Exam tests on GlassFish 4.1)
+2854: remote -> org.ops4j.pax.exam.archetypes:exam-karaf-archetype (Archetype for Pax Exam tests on Karaf)
+2855: remote -> org.ops4j.pax.exam.archetypes:exam-osgi-archetype (Archetype for Pax Exam tests on OSGi frameworks)
+2856: remote -> org.ops4j.pax.exam.archetypes:exam-wildfly80-archetype (Archetype for Pax Exam tests on WildFly 8.0)
+2857: remote -> org.ops4j.pax.web.archetypes:wab-archetype (-)
+2858: remote -> org.ops4j.pax.web.archetypes:wab-gwt-archetype (-)
+2859: remote -> org.ops4j.pax.web.archetypes:war-archetype (-)
+3021: remote -> org.springframework.osgi:spring-osgi-bundle-archetype (Spring OSGi Maven2 Archetype)
+3022: remote -> org.springframework.ws:spring-ws-archetype (Spring Web Services Maven2 Archetype.)
+3023: remote -> org.sqlproc:sqlproc-archetype-simple-jdbc (SQL Processor Archetype for Simple JDBC Application)
+3024: remote -> org.sqlproc:sqlproc-archetype-simple-spring (SQL Processor Archetype for Simple Spri
+3222: remote -> software.tnb:camel3-archetype-spring-boot (Creates a new Camel project using Spring Boot.)
+3228: remote -> tech.ibit:ibit-springboot-web-starter-archetype (ibit-springboot-web-starter-archetype)
+
+3255: remote -> uk.co.solong:angular-spring-archetype (So Long archetype for RESTful spring services with an AngularJS frontend. Includes debian deployment)
+
+3255: remote -> uk.co.solong:angular-spring-archetype (So Long archetype for RESTful spring services with an AngularJS frontend. Includes debian deployment)
+
+
+
+
+
